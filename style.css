@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
 .texto-com-fundo {
-    background-color: #1B1E1B; color: rgb(255, 255, 123); width: fit-content;
+    background-color: #1B1E1B;
+    color: rgb(255, 255, 123); width: fit-content;
+}
+
+.paragrafo {
+    text-align: justify;
+    width: 600px;
 }
