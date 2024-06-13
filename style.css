@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.texto-com-fundo {
+    background-color: #1B1E1B; color: rgb(255, 255, 123); width: fit-content;
+}
