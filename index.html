@@ -17,12 +17,15 @@
         <p class="paragrafo">
             Para colocar uma fonte em css, você deve usar o parâmetro de estilo <mark>"font-family:#;""</mark>
         </p>
+
         <p class= "texto-com-fundo">
             Ex: stlye="font-family: Arial;"
         </p>
+
         <p class="paragrafo">
             Se o nome da família da fonte for com duas palavras, deve ser colocado entre aspas simples.
         </p>
+
         <p class="texto-com-fundo">
             Ex: stlye="font-family: 'Courier New';"
         </p>
@@ -30,15 +33,19 @@
         <p class="paragrafo">
             Nem todo dispositivo terá todas as fontes instaladas, por isso é bom ter várias fontes secundárias. Você pode colocar fontes secundárias após uma vírgula no parâmetro "font-family:#;".
         </p>
+
         <p class="texto-com-fundo">
             Ex: stlye="font-family: Arial, Helvetica, sans-serif;"
         </p>
+
         <p class="paragrafo">
             Nesse exemplo, o site exibirá a fonte <mark>Arial</mark>, se ela não estiver disponível, ele exibirá a fonte <mark>Helvetica</mark>, se ela também não estiver disponível, ele exibirá <mark>qualquer fonte sem serifa disponível</mark>, devido ao comando <mark>sans-serif</mark>. Esse método de colocar várias fontes secundárias se chama <mark>Safe Combination</mark>. Sempre termine sua safe combination com uma fonte genérica (sans-serif, por exemplo).
         </p>
+
         <p>
             Fontes recomendadas:
         </p>
+
         <div class="lista">
             <ul>
                 <li>Arial (sans-serif)</li>
@@ -63,16 +70,39 @@
             Existem dois tipos de medida para fonte, as medidas relativas e as medidas absolutas.
         </p>
 
+        <p>
+            Medidas absolutas:
+        </p>
+
         <div class="lista">
             <ul>
-                cm (Centímetro)
-                mm (Milímetro)
-                in (Polegadas)
-                px (Pixels)
-                pt (Pontos)
-                pc (Pica)
+                <li>cm (Centímetro)</li>
+                <li>mm (Milímetro)</li>
+                <li>in (Polegadas)</li>
+                <li>px (Pixels)</li>
+                <li>pt (Pontos)</li>
+                <li>pc (Pica)</li>
             </ul>
         </div>
+
+        <p>
+            Essas medidas não se adaptarão ao dispositivo, se mantendo independente do tamanho da tela. A única recomendada é a medida em <mark>Pixels</mark>.
+        </p>
+
+        <div class="lista">
+            <ul>
+                <li>em (Relativo ao M maiúsculo da fonte)</li>
+                <li>ex (Relativo ao x minúsculo da fonte)</li>
+                <li>rem (Relativo ao root, a fonte do body)</li>
+                <li>vw (Relativo a largura da viewport, ou seja a tela)</li>
+                <li>vh (Relativo a altura da viewport)</li>
+                <li>%</li>
+            </ul>
+        </div>
+
+        <p>
+            Essas medidas se adaptarão ao dispositivo, se adaptando ao tamanho da tela. A única recomendada é a medida em <mark>em</mark>.
+        </p>
 
     </main>
 
