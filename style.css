@@ -23,6 +23,7 @@ main {
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 5px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 ul, h2 {color: yellow}
@@ -47,4 +48,13 @@ h1, p {
 
 mark {
     background-color: white;
+}
+
+.italic {font-style: italic;}
+
+.oblique {font-style: oblique;}
+
+.amostra-codigo {
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
 }
